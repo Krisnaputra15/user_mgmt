@@ -1,0 +1,20 @@
+{
+    "name": "user_mgmt",
+    "version": "1.0",
+    "main": "index.js",
+    "scripts": {
+        "serve": "node server.js",
+        "dev": "nodemon server.js",
+        "migrate": "knex migrate:latest --knexfile ./config/knexfile.js",
+        "rollback": "knex migrate:rollback --knexfile ./config/knexfile.js"
+    },
+    "devDependencies": {
+        "dotenv": "^16.3.1",
+        "mysql2": "^3.6.5",
+        "nodemon": "^3.0.2",
+        "uuid": "^9.0.1"
+    },
+    "dependencies": {
+        "formidable": "^3.5.1"
+    }
+}
