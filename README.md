@@ -1,4 +1,4 @@
-user management API using Node JS with MVC architecture.
+user management API made using Vanilla NodeJS with MVC architecture.
 made by Krisna Putra Mariyanto.
 
 how to run : 
